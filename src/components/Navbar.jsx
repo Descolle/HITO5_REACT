@@ -23,15 +23,16 @@ function NavBar() {
           <Button variant="outline-light" className="text-white">
             🍕Home
           </Button>
+          {/* se elimina el onclick  onClick={register} */}
           <Button
             variant="outline-light"
             className="text-white"
-            onClick={register}
           >
             <img src={token ? lockopen : lock} alt="lock status" />
             {token ? "Profile" : "Register"}
           </Button>
-          <Button variant="outline-light" className="text-white" onClick={OpenLog}>
+          {/* se elimina el onclick  onClick={OpenLog} */}
+          <Button variant="outline-light" className="text-white" >
             <img src={token ? lockopen : lock} alt="lock status" />
             {token ? "LogOut" : "Login"}
           </Button>

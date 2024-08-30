@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./SignUp.css";
 import Swal from 'sweetalert2'
+import { Link } from "react-router-dom";
 
 const SignUp = ({ children, openFormulario, closeRegister }) => {
   const [email, setEmail] = useState("");
@@ -77,7 +78,7 @@ const SignUp = ({ children, openFormulario, closeRegister }) => {
         </button>
         <div className="account-exist">
           <label>¿Ya tienes cuenta?</label>
-          <a href="#">Inicia Sesión</a>
+          <Link to="/register">Iniciar Sesión</Link>
         </div>
       </form>
       {children}
