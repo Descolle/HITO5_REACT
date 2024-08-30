@@ -78,7 +78,7 @@ const SignUp = ({ children, openFormulario, closeRegister }) => {
         </button>
         <div className="account-exist">
           <label>¿Ya tienes cuenta?</label>
-          <Link to="/register">Iniciar Sesión</Link>
+          <Link to="/login">Iniciar Sesión</Link>
         </div>
       </form>
       {children}

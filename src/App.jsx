@@ -8,6 +8,8 @@ import Cart from "./components/Cart";
 import LogIn from "./components/LogIn";
 import SignUp from "./components/SignUp";
 
+import NotFound from "./components/views/NotFound";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route path="/HITO5_REACT/cart" element={<Cart/>}/>
       <Route path="/HITO5_REACT/login" element={<LogIn/>}/>
       <Route path="/HITO5_REACT/register" element={<SignUp/>}/>
+      <Route path="/HITO5_REACT/#" element={<NotFound/>}/>
     </Routes>
     </>
   );

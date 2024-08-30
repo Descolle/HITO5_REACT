@@ -42,8 +42,8 @@ function NavBar() {
           </Button>
         </Nav>
       </Container>
-      <SignUp openFormulario={openFormulario} closeRegister={closeRegister} />
-      <LogIn abierto={abierto} CloseLog={closeLog}/>
+      {/* <SignUp openFormulario={openFormulario} closeRegister={closeRegister} />
+      <LogIn abierto={abierto} CloseLog={closeLog}/> */}
     </Navbar>
   );
 }
