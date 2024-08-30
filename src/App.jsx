@@ -20,7 +20,7 @@ function App() {
       <Route path="/HITO5_REACT/cart" element={<Cart/>}/>
       <Route path="/HITO5_REACT/login" element={<LogIn/>}/>
       <Route path="/HITO5_REACT/register" element={<SignUp/>}/>
-      <Route path="/HITO5_REACT/#" element={<NotFound/>}/>
+      <Route path="/HITO5_REACT/*" element={<NotFound/>}/>
     </Routes>
     </>
   );
