@@ -7,7 +7,6 @@ import CardPizza from "./components/CardPizza";
 import Cart from "./components/Cart";
 import LogIn from "./components/LogIn";
 import SignUp from "./components/SignUp";
-
 import NotFound from "./components/views/NotFound";
 
 

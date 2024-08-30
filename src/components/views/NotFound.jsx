@@ -1,10 +1,11 @@
 import React from 'react'
+import "./NotFound.css"
 
 const NotFound = () => {
   return (
     <div>
-        <p>TE HAS EQUIVOCADO</p>
-        
+        <h1>Oops...no hemos encontrado lo que buscabas</h1>
+
     </div>
   )
 }
