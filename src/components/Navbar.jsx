@@ -9,7 +9,6 @@ import LogIn from './LogIn';
 import { useSign } from "./hooks/useSign";
 import { useLogIn } from "./hooks/useLogIn"; // Importa el hook que maneja el estado del modal
 
-
 function NavBar() {
   const token = false;
   const total = 25000;
