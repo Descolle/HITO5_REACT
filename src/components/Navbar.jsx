@@ -41,9 +41,11 @@ function NavBar() {
           </Button>
         </Nav>
         <Nav className="ms-auto">
+        <Link to="/HITO5_REACT/cart">
           <Button variant="outline-light" className="text-white">
             🛒Total:<a href="#" className="valor">${total.toLocaleString()}</a>
           </Button>
+        </Link>
         </Nav>
       </Container>
       {/* <SignUp openFormulario={openFormulario} closeRegister={closeRegister} />
