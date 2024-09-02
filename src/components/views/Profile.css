@@ -19,6 +19,9 @@
     margin-left: 35px;
     border-radius: 10px;
 }
+.profile p {
+    margin-left: 25px;
+}
 .profile_pic {
     width: 200px;
 }
