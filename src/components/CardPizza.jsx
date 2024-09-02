@@ -3,6 +3,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import Pizzas from "./json/pizzas";
 import { useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 
 function CardPizza({ catchPizza }) {
 
@@ -40,7 +41,7 @@ function CardPizza({ catchPizza }) {
             </ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Button variant="primary">👀Ver Más</Button>{" "}
+            <Link to="/HITO5_REACT/pizza/01"><Button variant="primary">👀Ver Más</Button>{" "}</Link>
             <Button
               variant="success"
               onClick={() => catchPizza(pizza)}

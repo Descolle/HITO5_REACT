@@ -9,6 +9,7 @@ import LogIn from "./components/LogIn";
 import SignUp from "./components/SignUp";
 import NotFound from "./components/views/NotFound";
 import Profile from "./components/views/Profile";
+import Pizza01 from "./components/views/Pizza01";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Routes>
       <Route path="/HITO5_REACT/" element={<Home/>}/>
       <Route path="/HITO5_REACT/pizza" element={<CardPizza/>}/>
+      <Route path="/HITO5_REACT/pizza/01" element={<Pizza01/>}/>
       <Route path="/HITO5_REACT/cart" element={<Cart/>}/>
       <Route path="/HITO5_REACT/login" element={<LogIn/>}/>
       <Route path="/HITO5_REACT/register" element={<SignUp/>}/>
