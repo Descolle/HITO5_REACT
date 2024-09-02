@@ -29,7 +29,6 @@ const Pizza01 = () => {
           </ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Button variant="primary">👀Ver Más</Button>{" "}
           <Button
             variant="success"
             onClick={() => catchPizza(pizza)}
