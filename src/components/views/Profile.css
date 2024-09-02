@@ -25,7 +25,8 @@
 
 .square {
     display: flex;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .square_underconstruction {
     width: 700px;

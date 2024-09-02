@@ -14,7 +14,7 @@ const Profile = () => {
           <ul>Close Session</ul>
         </li>
       </div>
-      <div className='square'>
+      <div className='square d-flex justify-content-center align-items-center'>
         <img src='https://www2.udec.cl/~joseparra/2.png' alt='sitio en construcción' className='square_underconstruction'></img>
       </div>
       </div>

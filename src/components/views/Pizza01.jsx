@@ -8,7 +8,7 @@ const Pizza01 = () => {
   const pizza = Pizzas[0];
 
   return (
-    <div className="pizzacontainer">
+    <div className="pizzacontainer d-flex justify-content-center align-items-center">
       <Card style={{ width: "60vh" }} className="pizza" key={pizza.id}>
         <Card.Img variant="top" src={pizza.img} />
         <Card.Body>
