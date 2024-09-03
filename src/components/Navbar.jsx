@@ -21,27 +21,27 @@ function NavBar() {
         <Navbar.Brand>Pizzeria Mamma Mia!</Navbar.Brand>
         <Nav className="me-auto">
           <Button variant="outline-light" className="text-white">
-            <Link to="/HITO5_REACT/">🍕Home</Link>
+            <Link to="/HITO5_REACT/" className="zelda">🍕Home</Link>
           </Button>
           {/* se elimina el onclick  onClick={register} */}
           <Button
             variant="outline-light"
             className="text-white"
           >
-           <Link to="/HITO5_REACT/register"><img src={token ? lockopen : lock} alt="lock status" />
+           <Link to="/HITO5_REACT/register" className="zelda"><img src={token ? lockopen : lock} alt="lock status" />
             {token ? "Profile" : "Register"}
             </Link>
           </Button>
           {/* se elimina el onclick  onClick={OpenLog} */}
           <Button variant="outline-light" className="text-white" >
-          <Link to="/HITO5_REACT/login">
+          <Link to="/HITO5_REACT/login" className="zelda">
             <img src={token ? lockopen : lock} alt="lock status" />
             {token ? "LogOut" : "Login"}
             </Link>
           </Button>
         </Nav>
         <Nav className="ms-auto">
-        <Link to="/HITO5_REACT/cart">
+        <Link to="/HITO5_REACT/cart" className="zelda">
           <Button variant="outline-light" className="text-white">
             🛒Total:<a href="#" className="valor">${total.toLocaleString()}</a>
           </Button>
